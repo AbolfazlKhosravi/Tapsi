@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/font.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -43,7 +44,7 @@
           </nav>
         </header>
         <div class="main-content">
-          <div class="section-1">
+          <div class="section-1" >
             <picture class="banner-img">
               <source
                 srcset="./assets/images/banner/banner.webp"
@@ -123,7 +124,7 @@
               </div>
             </div>
           </div>
-          <div class="section-services">
+          <div class="section-services" data-aos="fade-up">
                 <div class="container">
                     <h2>سرویس های تپسی</h2>
                     <nav class="services-nav">
@@ -311,11 +312,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-          <div class="Business-services">
-            <div class="Business-control">
-              <div class="business-img">
-                <picture class="section-img-container">
+          </div>
+          <div class="Business-services" data-aos="fade-up">
+            <div class="Business-control" >
+              <div class="business-img" >
+                <picture class="section-img-container" >
                   <source
                     srcset="./assets/images/i-mac/i-mac.webp"
                     type="image/webp"
@@ -330,7 +331,7 @@
                   />
                 </picture>
               </div>
-              <div class="Business-text">
+              <div class="Business-text" >
                 <h2>خدمات تپسی برای کسب کار ها</h2>
                 <p>
                   پنل سازمانی تپسی، یک سامانه تحت وب است که به سادگی امکان
@@ -344,7 +345,7 @@
               </div>
             </div>
           </div>
-          <div class="section-buy">
+          <div class="section-buy" data-aos="fade-up">
             <div class="buy-control">
               <div class="buy-img">
                 <picture class="section-img-container">
@@ -378,7 +379,7 @@
               </div>
             </div>
           </div>
-          <div class="section-plan">
+          <div class="section-plan" data-aos="fade-up">
             <div class="container2 PLAN-CONTROL">
               <div class="plan-header">
                 <h2 class="plan-title">پلن های رزرو تاکسی</h2>
@@ -495,7 +496,7 @@
               </div>
             </div>
           </div>
-          <div class="sectin-travel">
+          <div class="sectin-travel" data-aos="fade-up">
             <h2>جوایز راننده برتر</h2>
             <div class="travel-control">
               <div class="travel__slides">
@@ -656,7 +657,7 @@
               </div>
             </div>
           </div>
-          <div class="section-choise">
+          <div class="section-choise" data-aos="fade-up">
             <h2>انتخاب راننده</h2>
             <div class="choise-praperty">
               <div>
@@ -669,7 +670,7 @@
               </div>
             </div>
           </div>
-          <div class="section-records">
+          <div class="section-records" data-aos="fade-up">
             <h2>سوابق راننده</h2>
             <div class="control-record">
               <div class="record-div">
@@ -719,7 +720,7 @@
               </div>
             </div>
           </div>
-          <div class="section-us">
+          <div class="section-us" data-aos="fade-up">
             <div class="cull-us">
               <h2>تماس با ما</h2>
             </div>
@@ -894,5 +895,9 @@
       </div>
     </div>
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
